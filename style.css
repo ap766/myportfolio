@@ -69,4 +69,32 @@
   font-size: 18px;
 }
 
+.about-me{
 
+border-radius: 10px;
+margin: 330px 150px;
+padding: 100px 0px;
+display: flex; /* Use flexbox to arrange the image and text side by side */
+align-items: center; /* Ve /* Add a border for the box */
+}
+
+.about-desc{
+  font-size:21px;
+  color:white;
+  height:200px;
+  width: 70%;
+  margin-left: 150px;
+  text-align: left;
+  
+  flex: 1; /* Allow the text to grow and take up remaining space */
+  word-wrap: break-word; /* Wrap long words or URLs if they don't fit */
+  white-space: pre-line; /* Preserve line breaks and whitespace */
+  overflow: hidden; /* Prevent text from spilling out */
+}
+.about-head{
+
+  color:#de2277;
+  
+  font-size: 30px;
+  margin-bottom: 10px;
+}
