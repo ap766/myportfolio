@@ -72,10 +72,13 @@
 .about-me{
 
 border-radius: 10px;
-margin: 330px 150px;
+margin-top: 330px ;
+margin-left : 150px;
+margin-right: 150px;
 padding: 100px 0px;
 display: flex; /* Use flexbox to arrange the image and text side by side */
 align-items: center; /* Ve /* Add a border for the box */
+margin-bottom:100px;
 }
 
 .about-desc{
@@ -98,3 +101,113 @@ align-items: center; /* Ve /* Add a border for the box */
   font-size: 30px;
   margin-bottom: 10px;
 }
+.skills-head{
+  color:#de2277;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.skills{
+  margin : 50px 100px;
+}
+.skill-container{
+   display: flex; 
+   justify-content: center;
+}
+svg{
+ margin:10px;
+}
+.skills-section{
+  
+  margin-bottom:200px;
+}
+.experience-head{
+
+  color :#de2277;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.experience {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.button-container {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.company-button {
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  margin-bottom: 23px;
+  background-color: #de2277;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 10px;
+}
+
+.experience-details {
+  color:white;
+  flex: 2;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  min-height: 150px;
+  background-color: #2c2a2b;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.experience-details p {
+  font-size: 16px;
+}
+
+/* Style for the active button */
+.company-button.active {
+  background-color: #f4a7b7;
+}
+
+.experience-section{
+
+  margin-top:300px;
+
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright {
+  margin-left: 10px;
+}
+
+.social-icons {
+  margin-right: 10px;
+}
+
+.social-icons a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.social-icons svg{
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+
