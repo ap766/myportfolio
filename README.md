@@ -1,5 +1,5 @@
 # myportfolio
-'Blogs' and 'Contact Me' have not been dynamically hosted yet; their outputs are provided below based on when they are run on localhost."
+'Blogs' and 'Contact Me' have not been dynamically hosted yet(due to end sems should be up by the first half of Oct); their outputs are provided below based on when they are run on localhost."
 ## About
 My portfolio website consists of:- 
 + About - An introduction along with my tech stacks, experience, and projects.
