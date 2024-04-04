@@ -89,7 +89,7 @@
         <ul class="nav-bar">
             <li class="nav-button-about"><a href="home.html">About</a></li>
             <li class="nav-button-projects"><a href="projects.html">My Work</a></li>
-            <li class="nav-button-blog"><a href="blog.html">Blog</a></li>
+            <!-- <li class="nav-button-blog"><a href="blog.html">Blog</a></li> -->
             <li class="nav-button-contact"><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
@@ -104,12 +104,15 @@
           </span>
         </h2>
 
+
         <div class="contact__form-container">
          <!-- method="POST" and action should have the php file-->   
-          <form action="#" class="contact__form" >
+          <form action="https://api.web3forms.com/submit" method="POST" class="contact__form" >
             <div class="contact__form-field">
+              <input type="hidden" name="access_key" value="bd93b11f-9057-423e-9e71-1acf85031913">
 
               <label class="contact__form-label" for="name">Name</label>
+
               <input style="width:100%;padding-right:0px
     "
                 required

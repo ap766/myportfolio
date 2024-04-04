@@ -34,7 +34,7 @@
         <ul class="nav-bar">
             <li class="nav-button-about"><a href="home.html">About</a></li>
             <li class="nav-button-projects"><a href="projects.html">My Work</a></li>
-            <li class="nav-button-blog"><a href="blog.html">Blog</a></li>
+            <!-- <li class="nav-button-blog"><a href="blog.html">Blog</a></li> -->
             <li class="nav-button-contact"><a href="contact.html">Contact</a></li>
         </ul>
     </nav>

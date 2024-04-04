@@ -84,7 +84,7 @@ margin-bottom:100px;
 .about-desc{
   font-size:21px;
   color:white;
-  height:200px;
+  height:400px;
   width: 70%;
   margin-left: 150px;
   text-align: left;
@@ -371,3 +371,87 @@ footer {
     opacity: 1;
   }
 }
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  #main-menu .nav-bar {
+    flex-direction: column;
+    margin-right: 0;
+  }
+
+  .skill-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8rem; /* Add this line to make the icons smaller */
+  }
+  .intro{
+    margin-bottom: 10px;
+  }
+  
+  .about-me {
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 0;
+    margin-bottom:70px;
+    margin-top: 20px;
+  }
+ 
+  .about-me .img {
+    margin-right: auto;
+    margin-left: auto;
+    width: 20%;
+    text-align: center;
+  }
+
+  .about-desc {
+    width: 100%;
+    margin-left: 0;
+  }
+  .skills-section{
+    margin-top: -45px;
+  }
+  .experience-section{
+    margin-top: -5px;
+  }
+
+  .experience {
+    flex-direction: column;
+    margin-top: -15px;
+  }
+  
+  .button-container,
+  .experience-details {
+    margin-top: -5px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    font-size: smaller;
+    gap: 10px; /* Add this line to add space between buttons */
+  }
+
+  .button-container .experience-details .company-button {
+    font-size: smaller;
+  }
+  .slider-container {
+    width: 100%;
+    margin: 0 auto; /* Change the margin to "0 auto" to center align */
+    text-align: center;
+  }
+
+  .slide {
+    overflow: hidden;
+  }
+
+  .slide-content {
+    padding: 0.5rem;
+    width: 100%; /* Change the width to 100% */
+  }
+  
+}
+  

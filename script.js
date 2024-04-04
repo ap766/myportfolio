@@ -3,7 +3,7 @@ const companyDetails = {
   'Brace Media': '(April 14th 2023 - July 14 th 2023)It is a digital marketing based startup.I worked on the frontend of websites of clients using html,css,javascript,bootstrap. Also used PHP and some APIs. Also got some idea about SEO and Google Analytics.',
   'OSOC': '(July 2023 - August 2023) It is a open source program by upes university which helps beginners in Open Source to get started . I contributed to Swayam Bazaar- particularly to the backend of the site using nodejs and mongodb. Worked on the database model , api routes, authentication of users,etc ',
   'FOSSEE':'(October 2023 - Present) It is a open source program by IIT Bombay which helps in promoting open source software in India. I worked on created a GUI Using PyQT6 which helps run simulations without exposing the code to the user. Also working on optimising the time taken for the simulation action to take place when Schedular Library is used',
-  'Nokia':'(February 2024 -  Present) Working on Dynamic Service Aggregation '
+  'Nokia':'(February 2024 -  Present) Working on a complete single window automation framework to dynamically design, dimension, derive and deploy a cloud native microservice solutions.The frontend is built using Reactjs,Dimensioning Service using Nodejs and Aggregator Service created Using Flask .Made use of Helm Charts to deploy pods on the Kubernetes Cluster. '
 }
 
 // Get the company buttons and company info element
